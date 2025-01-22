@@ -13,6 +13,9 @@ export default {
         secondary: {
           100: "#555FD2",
           200: "#232ED1",
+          300: "#7F8384",
+          400: "#6F63C3",
+          500: "#D1D1F5",
         },
         accent: {
           100: "#BCFFFF",
@@ -24,12 +27,6 @@ export default {
     },
     fontFamily: {
       jost: ['"Jost"', "sans-serif"],
-    },
-
-    spacing: {
-      72: "18rem",
-      84: "21rem",
-      96: "24rem",
     },
   },
   plugins: [],
