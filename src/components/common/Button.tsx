@@ -16,7 +16,7 @@ const Button: React.FC<ButtonProps> = ({ text, bg, px, py }) => {
         paddingTop: py,
         paddingBottom: py,
       }}
-      className={`${bg} text-white text-xl font-medium border-t-[3px] border-l-[3px] border-r-[8px] border-b-[8px] border-black transition-all duration-750 hover:border-r-[3px] hover:border-b-[3px] hover:translate-x-4 rounded-full`}
+      className={`${bg} text-white text-xl font-medium border-t-[3px] border-l-[3px] border-r-[8px] border-b-[8px] border-black transition-all duration-750 delay-200 hover:border-r-[3px] hover:border-b-[3px] hover:translate-x-4 rounded-full`}
     >
       {text}
     </button>
